@@ -1,0 +1,132 @@
+//FORM
+.contact-form {
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 10px;
+    float: left;
+    button {
+        .transition(); 
+        float: right;
+        display: block;
+        margin-top: 23px;
+        margin-right: 18px;
+        background-color: #1bbc9b;
+        color: #fff;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 9px;  
+        padding-left: 29px;
+        padding-right: 29px;
+        &:hover{
+            background-color: @accent;
+        }
+    }
+}
+
+.form-control {
+    width: 220px;
+    height: 47px;
+    border: 2px solid #bec3c7;
+    border-radius: 0;
+    margin-right: 18px;
+    display: inline-block;
+    box-sizing: border-box; 
+    padding: 0;
+    padding: 13px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.area-container {
+    margin-top: 22px;
+    textarea { 
+        display: block;
+        border: 2px solid #bec3c7; 
+        box-sizing: border-box;
+        padding-top: 18px;
+        padding-left: 13px;
+        padding-bottom: 18px;
+        padding-right: 13px;
+        max-width: 460px;
+        max-height: 152px;
+    }  
+}
+
+
+
+
+
+//ADAPTIVE MENU
+
+@media(max-width: 730px) {
+    .site-nav{
+        position: relative;
+    }
+    .site-nav .horizontal-nav{
+        position: absolute;
+        top: 100%;
+        margin: 0;
+        left: 0;
+        padding: 0;
+        width: 100%;
+        li{
+            margin: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px ;
+            }
+        a{
+            display: inline-block;
+            width: 100%;
+        }
+    }
+    .header-content {
+        margin-top: 156px;
+    }
+}
+
+@media(max-width: 550px) {
+    .sec-portfolio {
+        position: relative;
+    }
+    .sec-portfolio .portfolio-nav{
+        position: absolute;
+        margin: 0;
+        margin-top: 15px;
+        padding: 0;
+        width: 100%;
+        left: 0;
+        li{
+            margin: 0;
+            display: block;
+            text-align: center;
+        }
+    }
+    .portfolio-icons {
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 540px){
+    .area-container{
+        textarea{
+        max-width: 320px !important;
+    }
+        
+    }
+    .form-control{
+        margin-top: 10px;
+    }
+    .contact-form{
+        button{
+            float: left;
+        }
+    }
+    #map{
+        width: 320px !important;
+    }
+}
