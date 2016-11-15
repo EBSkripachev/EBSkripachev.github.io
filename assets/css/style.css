@@ -6906,7 +6906,7 @@ button.close {
 }
 @media (max-width: 540px) {
   .area-container textarea {
-    max-width: 320px !important;
+    max-width: 250px !important;
   }
   .form-control {
     margin-top: 10px;
@@ -6915,7 +6915,7 @@ button.close {
     float: left;
   }
   #map {
-    width: 320px !important;
+    width: 250px !important;
   }
 }
 body {
