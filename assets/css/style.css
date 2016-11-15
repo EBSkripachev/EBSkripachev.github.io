@@ -6916,6 +6916,10 @@ button.close {
   }
   #map {
     width: 250px !important;
+    padding-bottom: 20px;
+  }
+  .icon-map-marker {
+    display: none !important;
   }
 }
 body {
